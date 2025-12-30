@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>ScriptBlox Live Search</title>
+  <style>
+    body { font-family: sans-serif; background:#111; color:#eee; }
+    input { padding:6px; width:60%; }
+    button { padding:6px; }
+    pre { background:#222; padding:10px; white-space:pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>ScriptBlox Live Search</h1>
+
+  <input id="search" placeholder="script search..." />
+  <button onclick="search()">検索</button>
+
+  <p id="status"></p>
+  <div id="results"></div>
+
+  <script src="scriptblox.js"></script>
+</body>
+</html>
